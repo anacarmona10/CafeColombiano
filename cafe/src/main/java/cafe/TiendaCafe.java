@@ -9,6 +9,7 @@ public class TiendaCafe {
         cafeNariño.calcularPrecioTotal();
         cafeNariño.actualizarCantidad(50);
         cafeNariño.mostrarInfo();
+        cafeNariño.aplicarDescuento(50);
 
         Cafe cafeAntioquia = new Cafe("Café de Antioquia", "Antioquia", 40000, 20);
 
@@ -16,6 +17,7 @@ public class TiendaCafe {
         cafeAntioquia.calcularPrecioTotal();
         cafeAntioquia.actualizarCantidad(15);
         cafeAntioquia.mostrarInfo();
+        cafeAntioquia.aplicarDescuento(25);
 
         Cafe cafeHuila = new Cafe("Café del Huila", "Huila", 45000, 15);
 
@@ -23,5 +25,6 @@ public class TiendaCafe {
         cafeHuila.calcularPrecioTotal();
         cafeHuila.actualizarCantidad(68.5);
         cafeHuila.mostrarInfo();
+        cafeHuila.aplicarDescuento(20);
     }
 }

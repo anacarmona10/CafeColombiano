@@ -28,4 +28,11 @@ public class Cafe {
         this.cantidadEnKilos = nuevaCantidad;
         System.out.println("Cantidad de kilos disponible cambiada a " + nuevaCantidad);
     }
+
+    public void aplicarDescuento(double porcentaje) {
+        double descuento = precioPorKilo * (porcentaje / 100);
+        precioPorKilo = precioPorKilo - descuento;
+        System.out.println("El porcentaje de descuento es " + porcentaje + ", entonces al precio se le restan " + descuento + ". Por lo que el precio final es " + precioPorKilo);
+    }
+
 }
